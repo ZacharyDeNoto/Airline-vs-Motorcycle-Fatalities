@@ -1,0 +1,89 @@
+---
+Assignment: Assignment 3.2
+author: "Zachary DeNoto"
+date: "October 1st 2020"
+output: pdf_document
+---
+
+
+```{r}
+library(readxl)
+
+data <- read.csv('unemployement-rate-1948-2010.csv')
+data
+```
+
+
+
+```{r}
+library(ggplot2)
+library(dplyr)
+
+x <- aggregate(data$Value ~ data$Year, FUN = mean)
+
+
+val <- x$`data$Value`
+yr <- x$`data$Year`
+
+val
+yr
+
+ggplot(data = x, aes(y= val, x = yr)) +
+  geom_area(fill = 'blue')+
+  labs(x = 'Year', y = 'Average Unemployment')+
+  ggtitle('Average Unemployment by Year')
+```
+
+```{r}
+
+
+Month <- data$Period
+
+ggplot(data = data, aes(y= data$Value, x = data$Year, fill = Month)) +
+  geom_area(position = position_stack(reverse = TRUE))+
+  labs(x = 'Year', y = 'Average Unemployment')+
+  ggtitle('Average Unemployment by Year')
+```
+
+
+
+```{r}
+library(treemap)
+library(plotly)
+
+
+dec <- data[which(data$Period == 'M12'),]
+
+
+yr <- dec$Year
+val <- dec$Value
+
+
+
+
+lab <- paste(yr,val, sep = "-")
+
+
+dec$lab <- lab
+
+
+dec1$lab <- lab
+
+# treemap
+treemap(dec1,
+            index= "lab",
+            vSize= "val",
+            type = "index",
+            title = "Tree Map of Unemployment by Year for December"
+            )
+
+```
+
+
+
+
+
+
+
+
+
