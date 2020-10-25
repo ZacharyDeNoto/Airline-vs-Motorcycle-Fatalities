@@ -1,0 +1,1973 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20203.20.0801.1333                               -->
+<workbook original-version='18.1' source-build='2020.3.0 (20203.20.0801.1333)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='birth-rate' inline='true' name='federated.1tl4cyo03dwjsb1be857l16d9igt' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='crimerates-by-state-2005' name='textscan.0xj8f0u1rhv8ec1fu72bp14f6mwt'>
+            <connection class='textscan' directory='C:/Users/Zack/Documents/Bellevue/DSC 640' filename='crimerates-by-state-2005.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0xj8f0u1rhv8ec1fu72bp14f6mwt' name='birth-rate.csv' table='[birth-rate#csv]' type='table'>
+          <columns character-set='UTF-8' header='no' locale='en_US' separator=','>
+            <column datatype='string' name='F1' ordinal='0' />
+            <column datatype='real' name='F2' ordinal='1' />
+            <column datatype='real' name='F3' ordinal='2' />
+            <column datatype='real' name='F4' ordinal='3' />
+            <column datatype='real' name='F5' ordinal='4' />
+            <column datatype='real' name='F6' ordinal='5' />
+            <column datatype='real' name='F7' ordinal='6' />
+            <column datatype='real' name='F8' ordinal='7' />
+            <column datatype='real' name='F9' ordinal='8' />
+            <column datatype='real' name='F10' ordinal='9' />
+            <column datatype='real' name='F11' ordinal='10' />
+            <column datatype='real' name='F12' ordinal='11' />
+            <column datatype='real' name='F13' ordinal='12' />
+            <column datatype='real' name='F14' ordinal='13' />
+            <column datatype='real' name='F15' ordinal='14' />
+            <column datatype='real' name='F16' ordinal='15' />
+            <column datatype='real' name='F17' ordinal='16' />
+            <column datatype='real' name='F18' ordinal='17' />
+            <column datatype='real' name='F19' ordinal='18' />
+            <column datatype='real' name='F20' ordinal='19' />
+            <column datatype='real' name='F21' ordinal='20' />
+            <column datatype='real' name='F22' ordinal='21' />
+            <column datatype='real' name='F23' ordinal='22' />
+            <column datatype='real' name='F24' ordinal='23' />
+            <column datatype='real' name='F25' ordinal='24' />
+            <column datatype='real' name='F26' ordinal='25' />
+            <column datatype='real' name='F27' ordinal='26' />
+            <column datatype='real' name='F28' ordinal='27' />
+            <column datatype='real' name='F29' ordinal='28' />
+            <column datatype='real' name='F30' ordinal='29' />
+            <column datatype='real' name='F31' ordinal='30' />
+            <column datatype='real' name='F32' ordinal='31' />
+            <column datatype='real' name='F33' ordinal='32' />
+            <column datatype='real' name='F34' ordinal='33' />
+            <column datatype='real' name='F35' ordinal='34' />
+            <column datatype='real' name='F36' ordinal='35' />
+            <column datatype='real' name='F37' ordinal='36' />
+            <column datatype='real' name='F38' ordinal='37' />
+            <column datatype='real' name='F39' ordinal='38' />
+            <column datatype='real' name='F40' ordinal='39' />
+            <column datatype='real' name='F41' ordinal='40' />
+            <column datatype='real' name='F42' ordinal='41' />
+            <column datatype='real' name='F43' ordinal='42' />
+            <column datatype='real' name='F44' ordinal='43' />
+            <column datatype='real' name='F45' ordinal='44' />
+            <column datatype='real' name='F46' ordinal='45' />
+            <column datatype='real' name='F47' ordinal='46' />
+            <column datatype='real' name='F48' ordinal='47' />
+            <column datatype='real' name='F49' ordinal='48' />
+            <column datatype='real' name='F50' ordinal='49' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0xj8f0u1rhv8ec1fu72bp14f6mwt' name='birth-rate.csv' table='[birth-rate#csv]' type='table'>
+          <columns character-set='UTF-8' header='no' locale='en_US' separator=','>
+            <column datatype='string' name='F1' ordinal='0' />
+            <column datatype='real' name='F2' ordinal='1' />
+            <column datatype='real' name='F3' ordinal='2' />
+            <column datatype='real' name='F4' ordinal='3' />
+            <column datatype='real' name='F5' ordinal='4' />
+            <column datatype='real' name='F6' ordinal='5' />
+            <column datatype='real' name='F7' ordinal='6' />
+            <column datatype='real' name='F8' ordinal='7' />
+            <column datatype='real' name='F9' ordinal='8' />
+            <column datatype='real' name='F10' ordinal='9' />
+            <column datatype='real' name='F11' ordinal='10' />
+            <column datatype='real' name='F12' ordinal='11' />
+            <column datatype='real' name='F13' ordinal='12' />
+            <column datatype='real' name='F14' ordinal='13' />
+            <column datatype='real' name='F15' ordinal='14' />
+            <column datatype='real' name='F16' ordinal='15' />
+            <column datatype='real' name='F17' ordinal='16' />
+            <column datatype='real' name='F18' ordinal='17' />
+            <column datatype='real' name='F19' ordinal='18' />
+            <column datatype='real' name='F20' ordinal='19' />
+            <column datatype='real' name='F21' ordinal='20' />
+            <column datatype='real' name='F22' ordinal='21' />
+            <column datatype='real' name='F23' ordinal='22' />
+            <column datatype='real' name='F24' ordinal='23' />
+            <column datatype='real' name='F25' ordinal='24' />
+            <column datatype='real' name='F26' ordinal='25' />
+            <column datatype='real' name='F27' ordinal='26' />
+            <column datatype='real' name='F28' ordinal='27' />
+            <column datatype='real' name='F29' ordinal='28' />
+            <column datatype='real' name='F30' ordinal='29' />
+            <column datatype='real' name='F31' ordinal='30' />
+            <column datatype='real' name='F32' ordinal='31' />
+            <column datatype='real' name='F33' ordinal='32' />
+            <column datatype='real' name='F34' ordinal='33' />
+            <column datatype='real' name='F35' ordinal='34' />
+            <column datatype='real' name='F36' ordinal='35' />
+            <column datatype='real' name='F37' ordinal='36' />
+            <column datatype='real' name='F38' ordinal='37' />
+            <column datatype='real' name='F39' ordinal='38' />
+            <column datatype='real' name='F40' ordinal='39' />
+            <column datatype='real' name='F41' ordinal='40' />
+            <column datatype='real' name='F42' ordinal='41' />
+            <column datatype='real' name='F43' ordinal='42' />
+            <column datatype='real' name='F44' ordinal='43' />
+            <column datatype='real' name='F45' ordinal='44' />
+            <column datatype='real' name='F46' ordinal='45' />
+            <column datatype='real' name='F47' ordinal='46' />
+            <column datatype='real' name='F48' ordinal='47' />
+            <column datatype='real' name='F49' ordinal='48' />
+            <column datatype='real' name='F50' ordinal='49' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[birth-rate.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;false&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[birth-rate.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[birth-rate.csv_9CB5F4EFD2C748748BB2895C8F5A83F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F2</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F2]</local-name>
+            <parent-name>[birth-rate.csv]</parent-name>
+            <remote-alias>F2</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[birth-rate.csv_9CB5F4EFD2C748748BB2895C8F5A83F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F3</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F3]</local-name>
+            <parent-name>[birth-rate.csv]</parent-name>
+            <remote-alias>F3</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[birth-rate.csv_9CB5F4EFD2C748748BB2895C8F5A83F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F4</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F4]</local-name>
+            <parent-name>[birth-rate.csv]</parent-name>
+            <remote-alias>F4</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[birth-rate.csv_9CB5F4EFD2C748748BB2895C8F5A83F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F5</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F5]</local-name>
+            <parent-name>[birth-rate.csv]</parent-name>
+            <remote-alias>F5</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[birth-rate.csv_9CB5F4EFD2C748748BB2895C8F5A83F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F6</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F6]</local-name>
+            <parent-name>[birth-rate.csv]</parent-name>
+            <remote-alias>F6</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[birth-rate.csv_9CB5F4EFD2C748748BB2895C8F5A83F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F7</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F7]</local-name>
+            <parent-name>[birth-rate.csv]</parent-name>
+            <remote-alias>F7</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[birth-rate.csv_9CB5F4EFD2C748748BB2895C8F5A83F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F8</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F8]</local-name>
+            <parent-name>[birth-rate.csv]</parent-name>
+            <remote-alias>F8</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[birth-rate.csv_9CB5F4EFD2C748748BB2895C8F5A83F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F9</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F9]</local-name>
+            <parent-name>[birth-rate.csv]</parent-name>
+            <remote-alias>F9</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[birth-rate.csv_9CB5F4EFD2C748748BB2895C8F5A83F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F10</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F10]</local-name>
+            <parent-name>[birth-rate.csv]</parent-name>
+            <remote-alias>F10</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[birth-rate.csv_9CB5F4EFD2C748748BB2895C8F5A83F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F11</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F11]</local-name>
+            <parent-name>[birth-rate.csv]</parent-name>
+            <remote-alias>F11</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[birth-rate.csv_9CB5F4EFD2C748748BB2895C8F5A83F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F12</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F12]</local-name>
+            <parent-name>[birth-rate.csv]</parent-name>
+            <remote-alias>F12</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[birth-rate.csv_9CB5F4EFD2C748748BB2895C8F5A83F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F13</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F13]</local-name>
+            <parent-name>[birth-rate.csv]</parent-name>
+            <remote-alias>F13</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[birth-rate.csv_9CB5F4EFD2C748748BB2895C8F5A83F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F14</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F14]</local-name>
+            <parent-name>[birth-rate.csv]</parent-name>
+            <remote-alias>F14</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[birth-rate.csv_9CB5F4EFD2C748748BB2895C8F5A83F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F15</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F15]</local-name>
+            <parent-name>[birth-rate.csv]</parent-name>
+            <remote-alias>F15</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[birth-rate.csv_9CB5F4EFD2C748748BB2895C8F5A83F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F16</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F16]</local-name>
+            <parent-name>[birth-rate.csv]</parent-name>
+            <remote-alias>F16</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[birth-rate.csv_9CB5F4EFD2C748748BB2895C8F5A83F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F17</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F17]</local-name>
+            <parent-name>[birth-rate.csv]</parent-name>
+            <remote-alias>F17</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[birth-rate.csv_9CB5F4EFD2C748748BB2895C8F5A83F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F18</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F18]</local-name>
+            <parent-name>[birth-rate.csv]</parent-name>
+            <remote-alias>F18</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[birth-rate.csv_9CB5F4EFD2C748748BB2895C8F5A83F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F19</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F19]</local-name>
+            <parent-name>[birth-rate.csv]</parent-name>
+            <remote-alias>F19</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[birth-rate.csv_9CB5F4EFD2C748748BB2895C8F5A83F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F20</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F20]</local-name>
+            <parent-name>[birth-rate.csv]</parent-name>
+            <remote-alias>F20</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[birth-rate.csv_9CB5F4EFD2C748748BB2895C8F5A83F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F21</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F21]</local-name>
+            <parent-name>[birth-rate.csv]</parent-name>
+            <remote-alias>F21</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[birth-rate.csv_9CB5F4EFD2C748748BB2895C8F5A83F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F22</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F22]</local-name>
+            <parent-name>[birth-rate.csv]</parent-name>
+            <remote-alias>F22</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[birth-rate.csv_9CB5F4EFD2C748748BB2895C8F5A83F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F23</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F23]</local-name>
+            <parent-name>[birth-rate.csv]</parent-name>
+            <remote-alias>F23</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[birth-rate.csv_9CB5F4EFD2C748748BB2895C8F5A83F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F24</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F24]</local-name>
+            <parent-name>[birth-rate.csv]</parent-name>
+            <remote-alias>F24</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[birth-rate.csv_9CB5F4EFD2C748748BB2895C8F5A83F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F25</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F25]</local-name>
+            <parent-name>[birth-rate.csv]</parent-name>
+            <remote-alias>F25</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[birth-rate.csv_9CB5F4EFD2C748748BB2895C8F5A83F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F26</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F26]</local-name>
+            <parent-name>[birth-rate.csv]</parent-name>
+            <remote-alias>F26</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[birth-rate.csv_9CB5F4EFD2C748748BB2895C8F5A83F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F27</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F27]</local-name>
+            <parent-name>[birth-rate.csv]</parent-name>
+            <remote-alias>F27</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[birth-rate.csv_9CB5F4EFD2C748748BB2895C8F5A83F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F28</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F28]</local-name>
+            <parent-name>[birth-rate.csv]</parent-name>
+            <remote-alias>F28</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[birth-rate.csv_9CB5F4EFD2C748748BB2895C8F5A83F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F29</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F29]</local-name>
+            <parent-name>[birth-rate.csv]</parent-name>
+            <remote-alias>F29</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[birth-rate.csv_9CB5F4EFD2C748748BB2895C8F5A83F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F30</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F30]</local-name>
+            <parent-name>[birth-rate.csv]</parent-name>
+            <remote-alias>F30</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[birth-rate.csv_9CB5F4EFD2C748748BB2895C8F5A83F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F31</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F31]</local-name>
+            <parent-name>[birth-rate.csv]</parent-name>
+            <remote-alias>F31</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[birth-rate.csv_9CB5F4EFD2C748748BB2895C8F5A83F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F32</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F32]</local-name>
+            <parent-name>[birth-rate.csv]</parent-name>
+            <remote-alias>F32</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[birth-rate.csv_9CB5F4EFD2C748748BB2895C8F5A83F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F33</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F33]</local-name>
+            <parent-name>[birth-rate.csv]</parent-name>
+            <remote-alias>F33</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[birth-rate.csv_9CB5F4EFD2C748748BB2895C8F5A83F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F34</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F34]</local-name>
+            <parent-name>[birth-rate.csv]</parent-name>
+            <remote-alias>F34</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[birth-rate.csv_9CB5F4EFD2C748748BB2895C8F5A83F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F35</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F35]</local-name>
+            <parent-name>[birth-rate.csv]</parent-name>
+            <remote-alias>F35</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[birth-rate.csv_9CB5F4EFD2C748748BB2895C8F5A83F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F36</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F36]</local-name>
+            <parent-name>[birth-rate.csv]</parent-name>
+            <remote-alias>F36</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[birth-rate.csv_9CB5F4EFD2C748748BB2895C8F5A83F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F37</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F37]</local-name>
+            <parent-name>[birth-rate.csv]</parent-name>
+            <remote-alias>F37</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[birth-rate.csv_9CB5F4EFD2C748748BB2895C8F5A83F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F38</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F38]</local-name>
+            <parent-name>[birth-rate.csv]</parent-name>
+            <remote-alias>F38</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[birth-rate.csv_9CB5F4EFD2C748748BB2895C8F5A83F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F39</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F39]</local-name>
+            <parent-name>[birth-rate.csv]</parent-name>
+            <remote-alias>F39</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[birth-rate.csv_9CB5F4EFD2C748748BB2895C8F5A83F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F40</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F40]</local-name>
+            <parent-name>[birth-rate.csv]</parent-name>
+            <remote-alias>F40</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[birth-rate.csv_9CB5F4EFD2C748748BB2895C8F5A83F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F41</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F41]</local-name>
+            <parent-name>[birth-rate.csv]</parent-name>
+            <remote-alias>F41</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[birth-rate.csv_9CB5F4EFD2C748748BB2895C8F5A83F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F42</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F42]</local-name>
+            <parent-name>[birth-rate.csv]</parent-name>
+            <remote-alias>F42</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[birth-rate.csv_9CB5F4EFD2C748748BB2895C8F5A83F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F43</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F43]</local-name>
+            <parent-name>[birth-rate.csv]</parent-name>
+            <remote-alias>F43</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[birth-rate.csv_9CB5F4EFD2C748748BB2895C8F5A83F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F44</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F44]</local-name>
+            <parent-name>[birth-rate.csv]</parent-name>
+            <remote-alias>F44</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[birth-rate.csv_9CB5F4EFD2C748748BB2895C8F5A83F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F45</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F45]</local-name>
+            <parent-name>[birth-rate.csv]</parent-name>
+            <remote-alias>F45</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[birth-rate.csv_9CB5F4EFD2C748748BB2895C8F5A83F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F46</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F46]</local-name>
+            <parent-name>[birth-rate.csv]</parent-name>
+            <remote-alias>F46</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[birth-rate.csv_9CB5F4EFD2C748748BB2895C8F5A83F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F47</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F47]</local-name>
+            <parent-name>[birth-rate.csv]</parent-name>
+            <remote-alias>F47</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[birth-rate.csv_9CB5F4EFD2C748748BB2895C8F5A83F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F48</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F48]</local-name>
+            <parent-name>[birth-rate.csv]</parent-name>
+            <remote-alias>F48</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[birth-rate.csv_9CB5F4EFD2C748748BB2895C8F5A83F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F49</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F49]</local-name>
+            <parent-name>[birth-rate.csv]</parent-name>
+            <remote-alias>F49</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[birth-rate.csv_9CB5F4EFD2C748748BB2895C8F5A83F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F50</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F50]</local-name>
+            <parent-name>[birth-rate.csv]</parent-name>
+            <remote-alias>F50</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[birth-rate.csv_9CB5F4EFD2C748748BB2895C8F5A83F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='1972' datatype='real' name='[F14]' role='measure' type='quantitative' />
+      <column caption='Country' datatype='string' name='[F1]' role='dimension' type='nominal' />
+      <column datatype='real' name='[F31]' role='measure' type='quantitative' />
+      <column datatype='real' name='[F33]' role='measure' type='quantitative' />
+      <column datatype='real' name='[F39]' role='measure' type='quantitative' />
+      <column caption='2002' datatype='real' name='[F44]' role='measure' type='quantitative' />
+      <column datatype='real' name='[F45]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='birth-rate.csv' datatype='table' name='[__tableau_internal_object_id__].[birth-rate.csv_9CB5F4EFD2C748748BB2895C8F5A83F9]' role='measure' type='quantitative' />
+      <column-instance column='[F31]' derivation='Count' name='[cnt:F31:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[F1]' derivation='None' name='[none:F1:nk]' pivot='key' type='nominal' />
+      <column-instance column='[F14]' derivation='Sum' name='[sum:F14:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[F31]' derivation='Sum' name='[sum:F31:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[F33]' derivation='Sum' name='[sum:F33:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[F39]' derivation='Sum' name='[sum:F39:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[F44]' derivation='Sum' name='[sum:F44:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[F45]' derivation='Sum' name='[sum:F45:qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:F1:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Country&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Angola&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Cambodia&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Grenada&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Ethiopia&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Canada&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Uruguay&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Argentina&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Bahamas, The&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Cayman Islands&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Algeria&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Aruba&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Bhutan&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Zambia&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Europe &amp; Central Asia (developing only)&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Costa Rica&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Barbados&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Australia&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Ghana&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Belize&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:F1:nk]&#10;[:Measure Names]' palette='green_10_0' type='palette'>
+            <map to='#24693d'>
+              <multibucket>
+                <bucket>&quot;Zambia&quot;</bucket>
+                <bucket>&quot;[federated.1tl4cyo03dwjsb1be857l16d9igt].[sum:F44:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#246c3d'>
+              <multibucket>
+                <bucket>&quot;Zambia&quot;</bucket>
+                <bucket>&quot;[federated.1tl4cyo03dwjsb1be857l16d9igt].[sum:F14:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#256f3d'>
+              <multibucket>
+                <bucket>&quot;Uruguay&quot;</bucket>
+                <bucket>&quot;[federated.1tl4cyo03dwjsb1be857l16d9igt].[sum:F44:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#26733d'>
+              <multibucket>
+                <bucket>&quot;Uruguay&quot;</bucket>
+                <bucket>&quot;[federated.1tl4cyo03dwjsb1be857l16d9igt].[sum:F14:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#27763d'>
+              <multibucket>
+                <bucket>&quot;Grenada&quot;</bucket>
+                <bucket>&quot;[federated.1tl4cyo03dwjsb1be857l16d9igt].[sum:F44:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#29793e'>
+              <multibucket>
+                <bucket>&quot;Grenada&quot;</bucket>
+                <bucket>&quot;[federated.1tl4cyo03dwjsb1be857l16d9igt].[sum:F14:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#2b7c40'>
+              <multibucket>
+                <bucket>&quot;Ghana&quot;</bucket>
+                <bucket>&quot;[federated.1tl4cyo03dwjsb1be857l16d9igt].[sum:F44:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#2d7f41'>
+              <multibucket>
+                <bucket>&quot;Ghana&quot;</bucket>
+                <bucket>&quot;[federated.1tl4cyo03dwjsb1be857l16d9igt].[sum:F14:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#2f8243'>
+              <multibucket>
+                <bucket>&quot;Europe &amp; Central Asia (developing only)&quot;</bucket>
+                <bucket>&quot;[federated.1tl4cyo03dwjsb1be857l16d9igt].[sum:F44:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#348546'>
+              <multibucket>
+                <bucket>&quot;Europe &amp; Central Asia (developing only)&quot;</bucket>
+                <bucket>&quot;[federated.1tl4cyo03dwjsb1be857l16d9igt].[sum:F14:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#388848'>
+              <multibucket>
+                <bucket>&quot;Ethiopia&quot;</bucket>
+                <bucket>&quot;[federated.1tl4cyo03dwjsb1be857l16d9igt].[sum:F44:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#3c8b4b'>
+              <multibucket>
+                <bucket>&quot;Ethiopia&quot;</bucket>
+                <bucket>&quot;[federated.1tl4cyo03dwjsb1be857l16d9igt].[sum:F14:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#418e4d'>
+              <multibucket>
+                <bucket>&quot;Country&quot;</bucket>
+                <bucket>&quot;[federated.1tl4cyo03dwjsb1be857l16d9igt].[sum:F44:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#44924e'>
+              <multibucket>
+                <bucket>&quot;Country&quot;</bucket>
+                <bucket>&quot;[federated.1tl4cyo03dwjsb1be857l16d9igt].[sum:F14:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#48954f'>
+              <multibucket>
+                <bucket>&quot;Costa Rica&quot;</bucket>
+                <bucket>&quot;[federated.1tl4cyo03dwjsb1be857l16d9igt].[sum:F44:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#4b9850'>
+              <multibucket>
+                <bucket>&quot;Costa Rica&quot;</bucket>
+                <bucket>&quot;[federated.1tl4cyo03dwjsb1be857l16d9igt].[sum:F14:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#4f9b51'>
+              <multibucket>
+                <bucket>&quot;Cayman Islands&quot;</bucket>
+                <bucket>&quot;[federated.1tl4cyo03dwjsb1be857l16d9igt].[sum:F44:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#539e52'>
+              <multibucket>
+                <bucket>&quot;Cayman Islands&quot;</bucket>
+                <bucket>&quot;[federated.1tl4cyo03dwjsb1be857l16d9igt].[sum:F14:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#57a152'>
+              <multibucket>
+                <bucket>&quot;Canada&quot;</bucket>
+                <bucket>&quot;[federated.1tl4cyo03dwjsb1be857l16d9igt].[sum:F44:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#5ba453'>
+              <multibucket>
+                <bucket>&quot;Canada&quot;</bucket>
+                <bucket>&quot;[federated.1tl4cyo03dwjsb1be857l16d9igt].[sum:F14:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#5fa755'>
+              <multibucket>
+                <bucket>&quot;Cambodia&quot;</bucket>
+                <bucket>&quot;[federated.1tl4cyo03dwjsb1be857l16d9igt].[sum:F44:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#62aa58'>
+              <multibucket>
+                <bucket>&quot;Cambodia&quot;</bucket>
+                <bucket>&quot;[federated.1tl4cyo03dwjsb1be857l16d9igt].[sum:F14:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#65ad5b'>
+              <multibucket>
+                <bucket>&quot;Bhutan&quot;</bucket>
+                <bucket>&quot;[federated.1tl4cyo03dwjsb1be857l16d9igt].[sum:F44:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#68b05d'>
+              <multibucket>
+                <bucket>&quot;Bhutan&quot;</bucket>
+                <bucket>&quot;[federated.1tl4cyo03dwjsb1be857l16d9igt].[sum:F14:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#6cb461'>
+              <multibucket>
+                <bucket>&quot;Belize&quot;</bucket>
+                <bucket>&quot;[federated.1tl4cyo03dwjsb1be857l16d9igt].[sum:F44:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#6fb764'>
+              <multibucket>
+                <bucket>&quot;Belize&quot;</bucket>
+                <bucket>&quot;[federated.1tl4cyo03dwjsb1be857l16d9igt].[sum:F14:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#73ba67'>
+              <multibucket>
+                <bucket>&quot;Barbados&quot;</bucket>
+                <bucket>&quot;[federated.1tl4cyo03dwjsb1be857l16d9igt].[sum:F44:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#76be6b'>
+              <multibucket>
+                <bucket>&quot;Barbados&quot;</bucket>
+                <bucket>&quot;[federated.1tl4cyo03dwjsb1be857l16d9igt].[sum:F14:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#7ac16e'>
+              <multibucket>
+                <bucket>&quot;Bahamas, The&quot;</bucket>
+                <bucket>&quot;[federated.1tl4cyo03dwjsb1be857l16d9igt].[sum:F44:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#7ec471'>
+              <multibucket>
+                <bucket>&quot;Bahamas, The&quot;</bucket>
+                <bucket>&quot;[federated.1tl4cyo03dwjsb1be857l16d9igt].[sum:F14:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#82c875'>
+              <multibucket>
+                <bucket>&quot;Australia&quot;</bucket>
+                <bucket>&quot;[federated.1tl4cyo03dwjsb1be857l16d9igt].[sum:F44:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#86cb78'>
+              <multibucket>
+                <bucket>&quot;Australia&quot;</bucket>
+                <bucket>&quot;[federated.1tl4cyo03dwjsb1be857l16d9igt].[sum:F14:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#8ace7c'>
+              <multibucket>
+                <bucket>&quot;Aruba&quot;</bucket>
+                <bucket>&quot;[federated.1tl4cyo03dwjsb1be857l16d9igt].[sum:F44:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#8fd17f'>
+              <multibucket>
+                <bucket>&quot;Aruba&quot;</bucket>
+                <bucket>&quot;[federated.1tl4cyo03dwjsb1be857l16d9igt].[sum:F14:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#93d383'>
+              <multibucket>
+                <bucket>&quot;Argentina&quot;</bucket>
+                <bucket>&quot;[federated.1tl4cyo03dwjsb1be857l16d9igt].[sum:F44:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#98d687'>
+              <multibucket>
+                <bucket>&quot;Argentina&quot;</bucket>
+                <bucket>&quot;[federated.1tl4cyo03dwjsb1be857l16d9igt].[sum:F14:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#9fd98e'>
+              <multibucket>
+                <bucket>&quot;Angola&quot;</bucket>
+                <bucket>&quot;[federated.1tl4cyo03dwjsb1be857l16d9igt].[sum:F44:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#a5db96'>
+              <multibucket>
+                <bucket>&quot;Angola&quot;</bucket>
+                <bucket>&quot;[federated.1tl4cyo03dwjsb1be857l16d9igt].[sum:F14:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#acdd9e'>
+              <multibucket>
+                <bucket>&quot;Algeria&quot;</bucket>
+                <bucket>&quot;[federated.1tl4cyo03dwjsb1be857l16d9igt].[sum:F44:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#b3e0a6'>
+              <multibucket>
+                <bucket>&quot;Algeria&quot;</bucket>
+                <bucket>&quot;[federated.1tl4cyo03dwjsb1be857l16d9igt].[sum:F14:qk]&quot;</bucket>
+              </multibucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1tl4cyo03dwjsb1be857l16d9igt].[sum:F44:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.1tl4cyo03dwjsb1be857l16d9igt].[cnt:F31:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.1tl4cyo03dwjsb1be857l16d9igt].[sum:F31:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.1tl4cyo03dwjsb1be857l16d9igt].[sum:F39:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.1tl4cyo03dwjsb1be857l16d9igt]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1tl4cyo03dwjsb1be857l16d9igt].[sum:F45:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.1tl4cyo03dwjsb1be857l16d9igt].[sum:F33:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1tl4cyo03dwjsb1be857l16d9igt].[sum:F14:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='birth-rate.csv' id='birth-rate.csv_9CB5F4EFD2C748748BB2895C8F5A83F9'>
+            <properties context=''>
+              <relation connection='textscan.0xj8f0u1rhv8ec1fu72bp14f6mwt' name='birth-rate.csv' table='[birth-rate#csv]' type='table'>
+                <columns character-set='UTF-8' header='no' locale='en_US' separator=','>
+                  <column datatype='string' name='F1' ordinal='0' />
+                  <column datatype='real' name='F2' ordinal='1' />
+                  <column datatype='real' name='F3' ordinal='2' />
+                  <column datatype='real' name='F4' ordinal='3' />
+                  <column datatype='real' name='F5' ordinal='4' />
+                  <column datatype='real' name='F6' ordinal='5' />
+                  <column datatype='real' name='F7' ordinal='6' />
+                  <column datatype='real' name='F8' ordinal='7' />
+                  <column datatype='real' name='F9' ordinal='8' />
+                  <column datatype='real' name='F10' ordinal='9' />
+                  <column datatype='real' name='F11' ordinal='10' />
+                  <column datatype='real' name='F12' ordinal='11' />
+                  <column datatype='real' name='F13' ordinal='12' />
+                  <column datatype='real' name='F14' ordinal='13' />
+                  <column datatype='real' name='F15' ordinal='14' />
+                  <column datatype='real' name='F16' ordinal='15' />
+                  <column datatype='real' name='F17' ordinal='16' />
+                  <column datatype='real' name='F18' ordinal='17' />
+                  <column datatype='real' name='F19' ordinal='18' />
+                  <column datatype='real' name='F20' ordinal='19' />
+                  <column datatype='real' name='F21' ordinal='20' />
+                  <column datatype='real' name='F22' ordinal='21' />
+                  <column datatype='real' name='F23' ordinal='22' />
+                  <column datatype='real' name='F24' ordinal='23' />
+                  <column datatype='real' name='F25' ordinal='24' />
+                  <column datatype='real' name='F26' ordinal='25' />
+                  <column datatype='real' name='F27' ordinal='26' />
+                  <column datatype='real' name='F28' ordinal='27' />
+                  <column datatype='real' name='F29' ordinal='28' />
+                  <column datatype='real' name='F30' ordinal='29' />
+                  <column datatype='real' name='F31' ordinal='30' />
+                  <column datatype='real' name='F32' ordinal='31' />
+                  <column datatype='real' name='F33' ordinal='32' />
+                  <column datatype='real' name='F34' ordinal='33' />
+                  <column datatype='real' name='F35' ordinal='34' />
+                  <column datatype='real' name='F36' ordinal='35' />
+                  <column datatype='real' name='F37' ordinal='36' />
+                  <column datatype='real' name='F38' ordinal='37' />
+                  <column datatype='real' name='F39' ordinal='38' />
+                  <column datatype='real' name='F40' ordinal='39' />
+                  <column datatype='real' name='F41' ordinal='40' />
+                  <column datatype='real' name='F42' ordinal='41' />
+                  <column datatype='real' name='F43' ordinal='42' />
+                  <column datatype='real' name='F44' ordinal='43' />
+                  <column datatype='real' name='F45' ordinal='44' />
+                  <column datatype='real' name='F46' ordinal='45' />
+                  <column datatype='real' name='F47' ordinal='46' />
+                  <column datatype='real' name='F48' ordinal='47' />
+                  <column datatype='real' name='F49' ordinal='48' />
+                  <column datatype='real' name='F50' ordinal='49' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='tv_sizes' inline='true' name='federated.14zje7f05iyqjm1a6ppcm1cqd6mr' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='tv_sizes' name='textscan.0vl4a241n3ucjs11ic8os0s5y1pw'>
+            <connection class='textscan' directory='C:/Users/Zack/Documents/Bellevue/DSC 640' filename='tv_sizes.txt' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0vl4a241n3ucjs11ic8os0s5y1pw' name='tv_sizes.txt' table='[tv_sizes#txt]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator='&#9;'>
+            <column datatype='string' name='year' ordinal='0' />
+            <column datatype='integer' name='size' ordinal='1' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0vl4a241n3ucjs11ic8os0s5y1pw' name='tv_sizes.txt' table='[tv_sizes#txt]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator='&#9;'>
+            <column datatype='string' name='year' ordinal='0' />
+            <column datatype='integer' name='size' ordinal='1' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[tv_sizes.txt]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;&#9;&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>year</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[year]</local-name>
+            <parent-name>[tv_sizes.txt]</parent-name>
+            <remote-alias>year</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tv_sizes.txt_39C8A24B077A4E878AA3EF5D81D326B7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>size</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[size]</local-name>
+            <parent-name>[tv_sizes.txt]</parent-name>
+            <remote-alias>size</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tv_sizes.txt_39C8A24B077A4E878AA3EF5D81D326B7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='data' datatype='real' name='[Calculation_866942967121317889]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='AVG([size])/COUNT([size])' />
+      </column>
+      <column caption='2001' datatype='real' datatype-customized='true' name='[Calculation_866942967122968578]' role='dimension' type='ordinal'>
+        <calculation class='tableau' formula='FLOAT(IF [year] = &apos;2001&apos; THEN [size] END)' />
+      </column>
+      <column caption='01' datatype='integer' name='[Calculation_866942967123517443]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF [year]= &apos;2001&apos; THEN [size] END' />
+      </column>
+      <column caption='Frequency' datatype='real' name='[Calculation_866942967129337862]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='AVG([size])/COUNT([size])' />
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='tv_sizes.txt' datatype='table' name='[__tableau_internal_object_id__].[tv_sizes.txt_39C8A24B077A4E878AA3EF5D81D326B7]' role='measure' type='quantitative' />
+      <column caption='Size' datatype='integer' name='[size]' role='measure' type='quantitative' />
+      <column caption='Year' datatype='string' name='[year]' role='dimension' type='nominal' />
+      <column-instance column='[year]' derivation='None' name='[none:year:nk]' pivot='key' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:year:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;2001&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;2005&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;2004&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;2009&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;2007&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;2003&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;2006&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;2002&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;2008&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='tv_sizes.txt' id='tv_sizes.txt_39C8A24B077A4E878AA3EF5D81D326B7'>
+            <properties context=''>
+              <relation connection='textscan.0vl4a241n3ucjs11ic8os0s5y1pw' name='tv_sizes.txt' table='[tv_sizes#txt]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator='&#9;'>
+                  <column datatype='string' name='year' ordinal='0' />
+                  <column datatype='integer' name='size' ordinal='1' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Bubble Chart'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>1972 and 2002 Birth Rate</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='birth-rate' name='federated.1tl4cyo03dwjsb1be857l16d9igt' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1tl4cyo03dwjsb1be857l16d9igt'>
+            <column caption='1972' datatype='real' name='[F14]' role='measure' type='quantitative' />
+            <column caption='Country' datatype='string' name='[F1]' role='dimension' type='nominal' />
+            <column datatype='real' name='[F20]' role='measure' type='quantitative' />
+            <column caption='2002' datatype='real' name='[F44]' role='measure' type='quantitative' />
+            <column-instance column='[F1]' derivation='None' name='[none:F1:nk]' pivot='key' type='nominal' />
+            <column-instance column='[F14]' derivation='Sum' name='[sum:F14:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[F20]' derivation='Sum' name='[sum:F20:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[F44]' derivation='Sum' name='[sum:F44:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1tl4cyo03dwjsb1be857l16d9igt].[none:F1:nk]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:F1:nk]' member='&quot;Argentina&quot;' />
+              <groupfilter function='member' level='[none:F1:nk]' member='&quot;Aruba&quot;' />
+              <groupfilter function='member' level='[none:F1:nk]' member='&quot;Bahamas, The&quot;' />
+              <groupfilter function='member' level='[none:F1:nk]' member='&quot;Barbados&quot;' />
+              <groupfilter function='member' level='[none:F1:nk]' member='&quot;Belize&quot;' />
+              <groupfilter function='member' level='[none:F1:nk]' member='&quot;Bhutan&quot;' />
+              <groupfilter function='member' level='[none:F1:nk]' member='&quot;Cambodia&quot;' />
+              <groupfilter function='member' level='[none:F1:nk]' member='&quot;Canada&quot;' />
+              <groupfilter function='member' level='[none:F1:nk]' member='&quot;Costa Rica&quot;' />
+              <groupfilter function='member' level='[none:F1:nk]' member='&quot;Country&quot;' />
+              <groupfilter function='member' level='[none:F1:nk]' member='&quot;Ethiopia&quot;' />
+              <groupfilter function='member' level='[none:F1:nk]' member='&quot;Europe &amp; Central Asia (developing only)&quot;' />
+              <groupfilter function='member' level='[none:F1:nk]' member='&quot;Ghana&quot;' />
+              <groupfilter function='member' level='[none:F1:nk]' member='&quot;Grenada&quot;' />
+              <groupfilter function='member' level='[none:F1:nk]' member='&quot;Sweden&quot;' />
+              <groupfilter function='member' level='[none:F1:nk]' member='&quot;Uruguay&quot;' />
+              <groupfilter function='member' level='[none:F1:nk]' member='&quot;Vietnam&quot;' />
+              <groupfilter function='member' level='[none:F1:nk]' member='&quot;Zambia&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1tl4cyo03dwjsb1be857l16d9igt].[none:F1:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1tl4cyo03dwjsb1be857l16d9igt].[sum:F14:qk]' field-type='quantitative' max='60.0' min='5.0' range-type='fixed' scope='rows' type='space' />
+            <format attr='title' class='0' field='[federated.1tl4cyo03dwjsb1be857l16d9igt].[sum:F14:qk]' scope='rows' value='Birth Rate' />
+            <encoding attr='space' class='0' field='[federated.1tl4cyo03dwjsb1be857l16d9igt].[sum:F44:qk]' field-type='quantitative' fold='true' scope='rows' synchronized='true' type='space' />
+            <format attr='display' class='0' field='[federated.1tl4cyo03dwjsb1be857l16d9igt].[sum:F44:qk]' scope='rows' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <size column='[federated.1tl4cyo03dwjsb1be857l16d9igt].[sum:F20:qk]' />
+              <color column='[federated.1tl4cyo03dwjsb1be857l16d9igt].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='10.904887199401855' />
+                <format attr='mark-color' value='#1b1b1b' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1tl4cyo03dwjsb1be857l16d9igt].[sum:F14:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <size column='[federated.1tl4cyo03dwjsb1be857l16d9igt].[sum:F20:qk]' />
+              <color column='[federated.1tl4cyo03dwjsb1be857l16d9igt].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='10.904887199401855' />
+                <format attr='mark-color' value='#1b1b1b' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='5' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1tl4cyo03dwjsb1be857l16d9igt].[sum:F44:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <size column='[federated.1tl4cyo03dwjsb1be857l16d9igt].[sum:F20:qk]' />
+              <color column='[federated.1tl4cyo03dwjsb1be857l16d9igt].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='10.904887199401855' />
+                <format attr='mark-color' value='#1b1b1b' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1tl4cyo03dwjsb1be857l16d9igt].[sum:F14:qk] + [federated.1tl4cyo03dwjsb1be857l16d9igt].[sum:F44:qk])</rows>
+        <cols>[federated.1tl4cyo03dwjsb1be857l16d9igt].[none:F1:nk]</cols>
+      </table>
+      <simple-id uuid='{71BC33F3-AC74-430A-A364-D1E9F440DB7D}' />
+    </worksheet>
+    <worksheet name='Density Plot'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>TV Size Frequency</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='tv_sizes' name='federated.14zje7f05iyqjm1a6ppcm1cqd6mr' />
+          </datasources>
+          <datasource-dependencies datasource='federated.14zje7f05iyqjm1a6ppcm1cqd6mr'>
+            <column caption='Frequency' datatype='real' name='[Calculation_866942967129337862]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='AVG([size])/COUNT([size])' />
+            </column>
+            <column-instance column='[size]' derivation='Avg' name='[avg:size:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[year]' derivation='None' name='[none:year:nk]' pivot='key' type='nominal' />
+            <column caption='Size' datatype='integer' name='[size]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_866942967129337862]' derivation='User' name='[usr:Calculation_866942967129337862:qk]' pivot='key' type='quantitative' />
+            <column caption='Year' datatype='string' name='[year]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.14zje7f05iyqjm1a6ppcm1cqd6mr].[avg:size:qk]' field-type='quantitative' max='48.0' min='35.0' range-type='fixed' scope='cols' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='20' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.14zje7f05iyqjm1a6ppcm1cqd6mr].[none:year:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.29585635662078857' />
+                <format attr='mark-color' value='#1b1b1b' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.14zje7f05iyqjm1a6ppcm1cqd6mr].[usr:Calculation_866942967129337862:qk]</rows>
+        <cols>[federated.14zje7f05iyqjm1a6ppcm1cqd6mr].[avg:size:qk]</cols>
+      </table>
+      <simple-id uuid='{D82B0FFC-CD07-473A-B5E2-2933B15EF588}' />
+    </worksheet>
+    <worksheet name='Scatter Plot'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>1972 Birth Rate</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='birth-rate' name='federated.1tl4cyo03dwjsb1be857l16d9igt' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1tl4cyo03dwjsb1be857l16d9igt'>
+            <column caption='1972' datatype='real' name='[F14]' role='measure' type='quantitative' />
+            <column caption='Country' datatype='string' name='[F1]' role='dimension' type='nominal' />
+            <column-instance column='[F1]' derivation='None' name='[none:F1:nk]' pivot='key' type='nominal' />
+            <column-instance column='[F14]' derivation='Sum' name='[sum:F14:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1tl4cyo03dwjsb1be857l16d9igt].[none:F1:nk]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:F1:nk]' member='&quot;Algeria&quot;' />
+              <groupfilter function='member' level='[none:F1:nk]' member='&quot;Angola&quot;' />
+              <groupfilter function='member' level='[none:F1:nk]' member='&quot;Argentina&quot;' />
+              <groupfilter function='member' level='[none:F1:nk]' member='&quot;Aruba&quot;' />
+              <groupfilter function='member' level='[none:F1:nk]' member='&quot;Australia&quot;' />
+              <groupfilter function='member' level='[none:F1:nk]' member='&quot;Bahamas, The&quot;' />
+              <groupfilter function='member' level='[none:F1:nk]' member='&quot;Barbados&quot;' />
+              <groupfilter function='member' level='[none:F1:nk]' member='&quot;Belize&quot;' />
+              <groupfilter function='member' level='[none:F1:nk]' member='&quot;Bhutan&quot;' />
+              <groupfilter function='member' level='[none:F1:nk]' member='&quot;Cambodia&quot;' />
+              <groupfilter function='member' level='[none:F1:nk]' member='&quot;Canada&quot;' />
+              <groupfilter function='member' level='[none:F1:nk]' member='&quot;Cayman Islands&quot;' />
+              <groupfilter function='member' level='[none:F1:nk]' member='&quot;Costa Rica&quot;' />
+              <groupfilter function='member' level='[none:F1:nk]' member='&quot;Country&quot;' />
+              <groupfilter function='member' level='[none:F1:nk]' member='&quot;Ethiopia&quot;' />
+              <groupfilter function='member' level='[none:F1:nk]' member='&quot;Europe &amp; Central Asia (developing only)&quot;' />
+              <groupfilter function='member' level='[none:F1:nk]' member='&quot;Ghana&quot;' />
+              <groupfilter function='member' level='[none:F1:nk]' member='&quot;Grenada&quot;' />
+              <groupfilter function='member' level='[none:F1:nk]' member='&quot;Uruguay&quot;' />
+              <groupfilter function='member' level='[none:F1:nk]' member='&quot;Zambia&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1tl4cyo03dwjsb1be857l16d9igt].[none:F1:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1tl4cyo03dwjsb1be857l16d9igt].[sum:F14:qk]' field-type='quantitative' max='60.0' min='0.0' range-type='fixed' scope='rows' type='space' />
+            <format attr='title' class='0' field='[federated.1tl4cyo03dwjsb1be857l16d9igt].[sum:F14:qk]' scope='rows' value='Birth Rate' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.29585635662078857' />
+                <format attr='mark-color' value='#1b1b1b' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1tl4cyo03dwjsb1be857l16d9igt].[sum:F14:qk]</rows>
+        <cols>[federated.1tl4cyo03dwjsb1be857l16d9igt].[none:F1:nk]</cols>
+      </table>
+      <simple-id uuid='{CD812D13-D548-4EFE-96F5-EBEE2B18F2B0}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='51'>
+    <window class='worksheet' maximized='true' name='Scatter Plot'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1tl4cyo03dwjsb1be857l16d9igt].[none:F1:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{562C904C-97A7-4B90-9C69-FDEA9EED8E5E}' />
+    </window>
+    <window class='worksheet' name='Bubble Chart'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1tl4cyo03dwjsb1be857l16d9igt].[:Measure Names]</field>
+            <field>[federated.1tl4cyo03dwjsb1be857l16d9igt].[none:F1:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{A0D90157-129A-4BD4-A81D-3284776FAB45}' />
+    </window>
+    <window class='worksheet' name='Density Plot'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.14zje7f05iyqjm1a6ppcm1cqd6mr].[none:Calculation_866942967122968578:nk]</field>
+            <field>[federated.14zje7f05iyqjm1a6ppcm1cqd6mr].[none:Calculation_866942967122968578:ok]</field>
+            <field>[federated.14zje7f05iyqjm1a6ppcm1cqd6mr].[none:Calculation_866942967123517443:qk]</field>
+            <field>[federated.14zje7f05iyqjm1a6ppcm1cqd6mr].[none:Calculation_866942967127818245:qk]</field>
+            <field>[federated.14zje7f05iyqjm1a6ppcm1cqd6mr].[none:year:nk]</field>
+            <field>[federated.14zje7f05iyqjm1a6ppcm1cqd6mr].[none:year:qk]</field>
+            <field>[federated.14zje7f05iyqjm1a6ppcm1cqd6mr].[sum:size:ok]</field>
+            <field>[federated.1tl4cyo03dwjsb1be857l16d9igt].[none:F1:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{B16D3967-8743-4440-BC5F-6F1C6A18DF86}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Bubble Chart' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Density Plot' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Scatter Plot' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
