@@ -1,0 +1,100 @@
+---
+Assignment: Assignment 6.2
+author: "Zachary DeNoto"
+date: "November 14th 2020"
+output: pdf_document
+---
+
+
+```{r}
+library(readxl)
+
+
+data <- read.csv('education.csv')
+data
+```
+
+
+
+```{r}
+library(plotly)
+
+fig <- plot_ly(x = data$reading,
+             type = "histogram")
+
+fig
+
+```
+
+```{r}
+
+fig <- plot_ly(y = ~data$math, type = "box", name = 'Math')
+fig <- fig %>% add_trace(y = ~data$writing, name = 'Writing')
+
+fig
+
+```
+
+
+
+
+```{r}
+library(reshape2)
+
+d <- data.frame(x=data$state,
+                reading=data$reading,
+                writing=data$writing)
+
+dm  <- melt(d,id.var=1)
+
+
+ggplot(data=dm, aes(x, value, colour = variable)) + geom_point() + labs( x = 'Stae', y = 'Score', title = 'Childrens Scores for Subjects by State') + theme(axis.text.x = element_text(angle = 90))+geom_hline(yintercept = mean(data$writing), color="blue")+ geom_hline(yintercept = mean(data$reading), color="red")
+
+```
+
+
+
+
+
+
+
+
+
+
+```{r}
+
+fig <- plot_ly(
+  type = "indicator",
+  mode = "number+gauge+delta",
+  gauge = list(shape = "bullet",
+               bar = list(color = 'gray')),
+  delta = list(reference = 600),
+  value = mean(data$reading) ,
+  domain = list(x = c(0, 1), y = c(0, 1)),
+  title= "Reading",
+  height = 150,
+  )
+
+fig <- fig %>%
+  layout(margin = list(l= 100, r= 10))
+
+fig
+
+
+
+```
+
+
+```{r}
+
+
+
+
+
+```
+
+
+
+
+
+
